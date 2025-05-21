@@ -10,4 +10,9 @@ import { NavbarComponent } from "./navbar/navbar.component";
 })
 export class AppComponent {
   title = 'angular';
+  constructor() {
+    console.log("nuevas funcioes");
+    console.warn("cuidado");
+    console.log("nuevos conflictos");
+  }
 }
